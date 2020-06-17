@@ -1,10 +1,11 @@
 <template>
-	<h1>I am TestComponent.</h1>
+	<h1>{{ msg }}</h1>
 </template>
 
 <script>
   export default {
     name: 'TestComponent',
+    props: ['msg'],
   }
 </script>
 
