@@ -7,10 +7,9 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "build lib": "vue-cli-service build --target lib --no-clean  --name avec --dest lib packages/index.ts",
-    "build one": "vue-cli-service build --target lib --no-clean  --name test-component --dest lib packages/test-component/index.ts"
+    "build:libs": "node ./build/build-libs.js"
   },
-  "main": "lib/avec.common.js",
+  "main": "lib/index.common.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
@@ -29,7 +28,9 @@
     "@vue/cli-service": "~4.4.0",
     "@vue/test-utils": "^1.0.3",
     "babel-plugin-import": "^1.13.0",
+    "glob": "^7.1.6",
     "lint-staged": "^9.5.0",
+    "runjs": "^4.4.2",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "typescript": "~3.9.3",
