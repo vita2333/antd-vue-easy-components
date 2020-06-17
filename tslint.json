@@ -22,6 +22,9 @@
       true,
       "single"
     ],
-    "semicolon": false
+    "semicolon": false,
+    "member-access": false,
+    "space-before-function-paren": true,
+    "no-console": false
   }
 }

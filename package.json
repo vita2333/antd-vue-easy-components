@@ -10,9 +10,11 @@
     "build:libs": "node ./build/build-libs.js"
   },
   "main": "lib/index.common.js",
+  "types": "types/index.d.ts",
   "dependencies": {
     "ant-design-vue": "^1.6.2",
     "core-js": "^3.6.5",
+    "global": "^4.4.0",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^8.4.2",
@@ -49,5 +51,11 @@
       "vue-cli-service lint",
       "git add"
     ]
-  }
+  },
+  "files": [
+    "lib",
+    "src",
+    "packages",
+    "types"
+  ]
 }
