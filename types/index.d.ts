@@ -1,7 +1,7 @@
 import { DynamicForm } from './dynamic-form'
-import { Component } from './component'
+import { UIComponent } from './component'
 
-export class TestComponent extends Component {
+export class TestComponent extends UIComponent {
 
 }
 
@@ -9,4 +9,4 @@ export {
   DynamicForm,
 }
 
-export default Component
+export default UIComponent

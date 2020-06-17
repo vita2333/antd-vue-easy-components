@@ -1,7 +1,8 @@
 import Vue from 'vue'
 
-export class Component {
+export class UIComponent {
   static name: string
 
-  static install (vue: typeof Vue): void
+  static install<T> (vue: typeof Vue, options?: T): void
 }
+

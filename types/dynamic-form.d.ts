@@ -1,5 +1,5 @@
-import { Component } from './component'
+import { UIComponent } from './component'
 
-export class DynamicForm extends Component {
+export class DynamicForm extends UIComponent {
 
 }
