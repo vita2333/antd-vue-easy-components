@@ -10,7 +10,7 @@
   Vue.use(TestComponent)
 
   export default {
-    name: 'LazyImport',
+    name: 'LazyUse',
     components: {},
   }
 </script>

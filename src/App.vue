@@ -1,9 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Global Import</router-link>
+      <router-link to="/">Lazy Use</router-link>
       |
-      <router-link to="/lazy">Lazy Import</router-link>
     </div>
     <router-view/>
   </div>
